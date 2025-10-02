@@ -57,9 +57,9 @@ resource "azurerm_application_gateway" "network" {
     git_commit           = "b07a42ebd74b8f0ba647e20b872474b1c29b4814"
     git_file             = "terraform/azure/application_gateway.tf"
     git_last_modified_at = "2021-05-02 10:08:55"
-    git_last_modified_by = "nimrodkor@users.noreply.github.com"
-    git_modifiers        = "harkiratbhardwaj/nimrodkor"
-    git_org              = "bridgecrewio"
+    git_last_modified_by = "prowlerworkshop@users.noreply.github.com"
+    git_modifiers        = "harkiratbhardwaj/prowlerworkshop"
+    git_org              = "awsworkshop"
     git_repo             = "terragoat"
     yor_trace            = "3f62753b-3d20-4fa7-b402-b780234a14d8"
   }

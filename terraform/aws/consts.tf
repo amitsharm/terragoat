@@ -2,7 +2,7 @@
 data "aws_caller_identity" "current" {}
 
 variable "company_name" {
-  default = "acme"
+  default = "workshop"
 }
 
 variable "environment" {
@@ -22,13 +22,9 @@ variable "profile" {
 }
 
 variable "region" {
-  default = "us-west-2"
+  default = "us-east-1"
 }
 
-variable ami {
-  type = string
-  default = "ami-09a5b0b7edf08843d"
-}
 
 variable "dbname" {
   type = string

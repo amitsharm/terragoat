@@ -10,9 +10,7 @@ provider "aws" {
   access_key = "AKIAIOSFODNN7EXAMPLE"
   secret_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 }
+provider  "random"  {
 
-terraform {
-  backend "s3" {
-    encrypt = true
-  }
-}
+    }
+

@@ -26,8 +26,8 @@ resource "google_compute_instance" "server" {
     git_file             = "terraform__gcp__instances_tf"
     git_last_modified_at = "2022-01-19-17-02-27"
     git_last_modified_by = "jameswoolfenden"
-    git_modifiers        = "jameswoolfenden__nimrodkor"
-    git_org              = "bridgecrewio"
+    git_modifiers        = "jameswoolfenden__prowlerworkshop"
+    git_org              = "awsworkshop"
     git_repo             = "terragoat"
     yor_trace            = "cd562b76-fbce-4e60-8c75-c9f43d7ffc16"
   }
@@ -40,8 +40,8 @@ resource "google_compute_disk" "unencrypted_disk" {
     git_file             = "terraform__gcp__instances_tf"
     git_last_modified_at = "2022-01-19-17-02-27"
     git_last_modified_by = "jameswoolfenden"
-    git_modifiers        = "jameswoolfenden__nimrodkor"
-    git_org              = "bridgecrewio"
+    git_modifiers        = "jameswoolfenden__prowlerworkshop"
+    git_org              = "awsworkshop"
     git_repo             = "terragoat"
     yor_trace            = "bf87b7d7-a9d8-4f03-a0d4-8a4cbb647d03"
   }

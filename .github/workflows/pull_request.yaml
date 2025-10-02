@@ -11,6 +11,6 @@ jobs:
 
       - name: Run Checkov action
         id: checkov
-        uses: bridgecrewio/checkov-action@master
+        uses: awsworkshop/checkov-action@master
         with:
           directory: terraform/
